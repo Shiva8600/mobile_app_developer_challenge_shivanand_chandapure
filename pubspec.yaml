@@ -1,0 +1,23 @@
+name: peblo_story_buddy
+description: A tiny Peblo-style story narration and quiz experience for children.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  confetti: ^0.8.0
+  flutter_tts: ^4.2.2
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
